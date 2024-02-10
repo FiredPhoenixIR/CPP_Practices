@@ -5,7 +5,8 @@ class MyClass
 {
 public:
     MyClass();
-    string getName();
+    int sum();
+    void myPrint();
 protected:
 private:
 };
