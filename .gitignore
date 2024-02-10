@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+/.vs/CPP_Practices/FileContentIndex/8a746268-e8b8-4782-bb3d-5dc61956f798.vsidx
+/.vs/CPP_Practices/v17
+/.vs/CPP_Practices/FileContentIndex
+/CPP_Practices.sln
+/CPP_Practices.vcxproj
+*.filters
+/CPP_Practices.vcxproj.user
