@@ -39,6 +39,7 @@ public:
 	}
 };
 
+/*
 int main() {
 	Queue q;
 	q.add(42); q.add(2); q.add(8); q.add(1);
@@ -52,3 +53,4 @@ int main() {
 
 	return 0;
 }
+*/
