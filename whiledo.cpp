@@ -11,6 +11,8 @@ int main() {
 	while (i < 18) {
 		i++;
 		cout << i << endl;
+		if (i == 16)
+			break;
 	}
 
 	int y = 20;
@@ -22,7 +24,7 @@ int main() {
 
 	for (int z = 30;z < 35;z++) {
 		if (z == 32) {
-			continue; //break;
+			continue; // or break
 		}
 		cout << " z is : " << z << endl;
 	}
