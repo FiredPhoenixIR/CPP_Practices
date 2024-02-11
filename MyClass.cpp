@@ -1,10 +1,10 @@
 #include<iostream>
 #include<string>
 using namespace std;
-
-class myClass {
+/*
+class MyClass {
 public:
-    myClass() {
+    MyClass() {
         std::cout << "Hey";
     }
     void setName(string x) {
@@ -13,13 +13,19 @@ public:
     string getName() {
         return name;
     }
+    int sum(int a,int b) {
+        return a + b;
+    }
+    void myPrint() {
+        cout << "Hello" << endl;
+    }
 private:
     string name;
 };
 
-/*
+
 int main() {
-    myClass myObj;
+    MyClass myObj;
 
     return 0;
 }

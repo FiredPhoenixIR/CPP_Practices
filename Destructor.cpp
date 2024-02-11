@@ -1,18 +1,20 @@
 #include "MyClass.h"
 #include <iostream>
 using namespace std;
-
+/*
 MyClass::MyClass()
 {
 	cout << "Constructor" << endl;
 }
 
-std::string MyClass::getName()
+int MyClass::sum()
 {
-	cout << "getname" << endl;
+	cout << "sum is " << endl;
 }
+
 
 MyClass::~MyClass()
 {
 	cout << "Destructor" << endl;
 }
+*/

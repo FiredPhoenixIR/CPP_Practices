@@ -1,3 +1,4 @@
+/*
 #ifndef MYCLASS_H
 #define MYCLASS_H
 
@@ -12,3 +13,4 @@ private:
 };
 
 #endif // MYCLASS_H
+*/
