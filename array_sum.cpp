@@ -1,16 +1,20 @@
 #include<iostream>
 using namespace std;
 
-static int sum_arr(int arr[], int n) {
+static int sum_arr(int arr[], int n1,int n2,int n3) {
 	int s = 0;
-	for (int i = 0;i < n;i++)
-		s += arr[i];
+	for (int i = 0;i < n1;i++)
+		for (int z =0;z<n2;z++)
+			for (int k=0;k<n3;k++)
+				s += arr[i * n2 * n3 * z +k];
 	return s;
 }
 
 int main() {
-	int x[5] = { 2,4,6,8,10 };
+	int x[2][2][3] = { {{1,3,5},{7,9,11}} ,{{2,4,6},{8,10,12}} }; 
+	// first is plate- second is row- third is col
 	int result;
-	result = sum_arr(x, 5);
-	cout << result;
+	result = sum_arr(*x[0], 2, 2, 3);
+	cout << x[0][0][0] << endl;
+	cout << "sum is : " << result;
 }
