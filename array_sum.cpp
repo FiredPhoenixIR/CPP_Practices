@@ -1,12 +1,12 @@
 #include<iostream>
 using namespace std;
-
+/*
 static int sum_arr(int arr[], int n1,int n2,int n3) {
 	int s = 0;
 	for (int i = 0;i < n1;i++)
 		for (int z =0;z<n2;z++)
 			for (int k=0;k<n3;k++)
-				s += arr[i * n2 * n3 * z +k];
+				s += arr[i * n2 * n3 + z * n3 + k];
 	return s;
 }
 
@@ -18,3 +18,4 @@ int main() {
 	cout << x[0][0][0] << endl;
 	cout << "sum is : " << result;
 }
+*/
