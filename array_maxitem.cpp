@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+/*
 int max_item_arr(int x[], int a, int b, int c)
 {
 	int max_item = x[0];
@@ -20,3 +20,4 @@ int main() {
 	int result = max_item_arr(*ex_arr[0], 3, 2, 4);
 	cout << result << endl;
 }
+*/
