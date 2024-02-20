@@ -1,5 +1,8 @@
 #include<iostream>
 using namespace std;
+
+/* \0 is null */
+
 /*
 int max_item_arr(int x[], int a, int b, int c)
 {
