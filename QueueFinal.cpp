@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+/*
 template<class T>
 class Queue {
 	int size;
@@ -62,3 +62,4 @@ int main() {
 
 	return 0;
 }
+*/
