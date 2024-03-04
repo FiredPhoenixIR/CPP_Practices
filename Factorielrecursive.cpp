@@ -14,4 +14,7 @@ int main(){
 	cin >> x;
 	cout << "Factorial of " << x << " is " << fac(x);
 }
+
+// The drawback of using recursion is that there is a lot of overhead.
+
 */
