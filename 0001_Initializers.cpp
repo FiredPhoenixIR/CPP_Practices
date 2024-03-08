@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+/*
 //4 Ways to initialize built-in tpye : 
 // ASSIGNMNET, FUNCTION, SYNTAX or CALLING A CONSTRUCTOR
 
@@ -15,3 +15,4 @@ int main() {
 }
 
 // TwoStyle for coding K&R (mostly unix) , Allman Style - Windows
+*/
