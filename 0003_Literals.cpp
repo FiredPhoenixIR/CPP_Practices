@@ -16,6 +16,8 @@ int main() {
     //
     //   std::showbase();
     // size of memory should be known at compile time
+    // constexpr evaulates const at compile time like for functions
+    // constexpr int triang(int i ){}
 
     return 0;
 }
