@@ -2,7 +2,13 @@
 //
 //using namespace std;
 //
-//
+//// insert remove lookup by value or index O(n)
+//// remove append prepend O(1)
+//// remove first O(1) , last O(n)
+// 
+//// vs Vector ? Look up by index in vector : O(1)
+//// remove last : O(1)
+//// prepend / remove first : O(n)
 //class Node {
 //public:
 //    int value;

@@ -1,5 +1,6 @@
 //#include <iostream>
 //
+// // O(logn)
 //// Node structure for the AVL tree
 //struct Node {
 //    int key;
