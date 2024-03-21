@@ -1,6 +1,6 @@
 //#include<iostream>
 //using namespace std;
-//
+// O(n^2) but O(n) for almost sorted
 //void insertionsort(int arr[], int size) {
 //	for (int i = 1; -1 < i < size; i++) {
 //		int temp = arr[i];
